@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-iaguilarmartin-typescript",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "My personal ESLint configuration for TypeScript projects",
   "main": "index.js",
   "sideEffects": false,
