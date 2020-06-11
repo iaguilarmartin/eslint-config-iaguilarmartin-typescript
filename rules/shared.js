@@ -26,6 +26,15 @@ module.exports = {
     'jest/valid-expect': 'error',
     'no-continue': 'off',
     'no-restricted-syntax': 'off',
+    'no-underscore-dangle': [
+      'error',
+      {
+        allow: [],
+        allowAfterThis: true,
+        allowAfterSuper: true,
+        enforceInMethodNames: false
+      }
+    ],
     'prefer-destructuring': [
       'error',
       {
