@@ -18,11 +18,13 @@ Install the following dependencies
 #### with npm
 
 ```bash
-npm install prettier \
-            eslint-config-iaguilarmartin-typescript \
-            eslint-config-airbnb-typescript \
+npm install prettier@latest \
+            eslint-config-iaguilarmartin-typescript@latest \
+            eslint-config-airbnb-typescript@latest \
             @typescript-eslint/eslint-plugin@^5.0.0 \
             @typescript-eslint/parser@^5.0.0 \
+            eslint-config-prettier@^8.3.0 \
+            eslint-plugin-prettier@^4.0.0 \
             --save-dev
 ```
 
@@ -34,6 +36,8 @@ yarn add -D prettier \
             eslint-config-airbnb-typescript \
             @typescript-eslint/eslint-plugin@^5.0.0 \
             @typescript-eslint/parser@^5.0.0 \
+            eslint-config-prettier@^8.3.0 \
+            eslint-plugin-prettier@^4.0.0 \
 ```
 
 ### Usage in React apps
