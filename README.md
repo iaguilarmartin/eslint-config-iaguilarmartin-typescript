@@ -8,44 +8,35 @@ want to implement tests in your project.
 
 ## Usage
 
-### Usage in React apps
+Make sure regular Airbnb config setup is done. See
+[eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb), or
+[eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base)
+if it is a node app.
 
 Install the following dependencies
 
 #### with npm
 
 ```bash
-npm install eslint \
-            prettier \
+npm install prettier \
             eslint-config-iaguilarmartin-typescript \
             eslint-config-airbnb-typescript \
-            eslint-config-prettier \
-            eslint-plugin-prettier \
-            eslint-plugin-jest \
-            eslint-plugin-import@^2.20.1 \
-            eslint-plugin-jsx-a11y@^6.2.3 \
-            eslint-plugin-react@^7.19.0 \
-            eslint-plugin-react-hooks@^2.5.0 \
-            @typescript-eslint/eslint-plugin@^2.24.0 \
+            @typescript-eslint/eslint-plugin@^5.0.0 \
+            @typescript-eslint/parser@^5.0.0 \
             --save-dev
 ```
 
 #### with yarn
 
 ```bash
-yarn add -D eslint \
-            prettier \
+yarn add -D prettier \
             eslint-config-iaguilarmartin-typescript \
             eslint-config-airbnb-typescript \
-            eslint-config-prettier \
-            eslint-plugin-prettier \
-            eslint-plugin-jest \
-            eslint-plugin-import@^2.20.1 \
-            eslint-plugin-jsx-a11y@^6.2.3 \
-            eslint-plugin-react@^7.19.0 \
-            eslint-plugin-react-hooks@^2.5.0 \
-            @typescript-eslint/eslint-plugin@^2.24.0
+            @typescript-eslint/eslint-plugin@^5.0.0 \
+            @typescript-eslint/parser@^5.0.0 \
 ```
+
+### Usage in React apps
 
 Create a **.eslintrc** file with the following content:
 
@@ -76,33 +67,6 @@ Create a **.prettierrc** file with this content:
 Install the following dependencies
 
 #### with npm
-
-```bash
-npm install eslint \
-            prettier \
-            eslint-config-iaguilarmartin-typescript \
-            eslint-config-airbnb-typescript \
-            eslint-config-prettier \
-            eslint-plugin-prettier \
-            eslint-plugin-jest \
-            eslint-plugin-import@^2.20.1 \
-            @typescript-eslint/eslint-plugin@^2.24.0 \
-            --save-dev
-```
-
-#### with yarn
-
-```bash
-yarn add -D eslint \
-            prettier \
-            eslint-config-iaguilarmartin-typescript \
-            eslint-config-airbnb-typescript \
-            eslint-config-prettier \
-            eslint-plugin-prettier \
-            eslint-plugin-jest \
-            eslint-plugin-import@^2.20.1 \
-            @typescript-eslint/eslint-plugin@^2.24.0
-```
 
 Create a **.eslintrc** file with the following content:
 
